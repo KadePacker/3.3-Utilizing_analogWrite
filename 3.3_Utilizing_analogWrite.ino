@@ -1,0 +1,27 @@
+void setup() {
+    analogWrite(11, 0); //red
+    analogWrite(10,0); //green
+    analogWrite(9,0); //blue
+}
+
+void loop() {
+  analogWrite(11, 100);
+  delay(1000);
+  analogWrite(11, 40);
+  delay(1000);
+  analogWrite(11, 0);
+  delay(1000);
+  analogWrite(10, 100);
+  delay(1000);
+  analogWrite(10, 40);
+  delay(1000);
+  analogWrite(10, 0);
+  delay(1000);
+  analogWrite(9, 100);
+  delay(1000);
+  analogWrite(9, 40);
+  delay(1000);
+  analogWrite(9, 0);
+  delay(1000);
+}
+
